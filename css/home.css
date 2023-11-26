@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(90deg, rgb(5, 1, 26), rgb(38, 1, 41));
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 1% 2%;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    padding: 0 5px;
+}
+
+#nav-bar{
+    display: flex;    
+}
+
+header {
+    background-image: linear-gradient(90deg, rgba(5, 1, 26, 0.7), rgba(38, 1, 41, 0.7)), url('https://images.unsplash.com/photo-1626266061368-46a8f578ddd6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    color: white;
+}
+
+header h1 {
+    display: flex;
+    margin-top: 10%;
+    justify-content: center;
+    font-size: 4vw; 
+}
+
+header h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 2vw; 
+}
+
+section {
+    color: white;
+}
+
+section h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    font-size: 2.5vw; 
+}
+
+section form {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;    
+}
+
+section input {
+    padding: 1vh 2vw;
+    font-size: 2vw;
+    text-align: center;
+    background-color: rgba(1,1,1,0);
+    border: solid white;
+    color: white;
+    transition: 0.2s
+}
+
+table {
+    margin: 0 auto 2% auto;
+    margin-top: 5%;
+    font-size: 2vw; 
+}
+
+tr, td, th {
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    width: 20vw; 
+    height: 5vh; 
+}
+
+table tr:nth-child(odd) {
+    background-color: rgb(100, 100, 100);
+}
+
+table button {
+    background-color: rgba(1, 1, 1, 0);
+    border: none;
+    color: white;
+    font-size: 2vw;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 900px) {
+    header {
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    header {
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header {
+        height: 30vh;
+    }
+
+    li{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    header {
+        height: 20vh;
+    }
+
+    li{
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    header {
+        height: 15vh;
+    }
+
+    li{
+        font-size: 8px;
+    }
+}
